@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
                 if (arg1 === arg2) {
                     textView.text = "Равно!"
                 } else {
-                    textView.text = "не Равно!"
+                    textView.text = " это не Равно!"
                 }
             } catch (e: Exception) {
                 textView.setText("Введите число!");
