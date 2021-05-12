@@ -2,7 +2,7 @@
     <string name="app_name">homework2</string>
 
 
-    <string name="button_del">Del</string>
+    <string name="button_dot">.</string>
     <string name="button_plus">+</string>
     <string name="button_equally">=</string>
     <string name="button_multiply">*</string>
