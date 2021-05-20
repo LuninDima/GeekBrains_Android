@@ -30,18 +30,22 @@ public class MainActivity extends AppCompatActivity {
             case '+':
                 buffer += Integer.parseInt(text.getText().toString());
                 text.setText(String.valueOf(buffer));
+                buffer = 0;
                 break;
             case '-':
                 buffer -= Integer.parseInt(text.getText().toString());
                 text.setText(String.valueOf(buffer));
+                buffer = 0;
                 break;
             case '/':
                 buffer /= Integer.parseInt(text.getText().toString());
                 text.setText(String.valueOf(buffer));
+                buffer = 0;
                 break;
             case '*':
                 buffer *= Integer.parseInt(text.getText().toString());
                 text.setText(String.valueOf(buffer));
+                buffer = 0;
                 break;
         }
         });
