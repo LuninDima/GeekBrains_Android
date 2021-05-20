@@ -19,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
         buffer = 0;
         operation = '1';
         text = findViewById(R.id.textDisplay);
+        Button clear = findViewById(R.id.button_clear);
+        clear.setOnClickListener(View ->{
+            text.setText("");
+            buffer = 0;
+        });
         Button equal = findViewById(R.id.button_equally);
         equal.setOnClickListener(View -> {
         switch (operation){
